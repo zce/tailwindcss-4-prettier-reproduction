@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-*: initial;
+
+  --color-emphasis: #000000; /* black */
+  --color-neutral: #1c2024; /* slate12 */
+  --color-muted: #60646c; /* slate11 */
+  --color-subtle: #e8e8ec; /* slate4 */
+  --color-weak: #fcfcfd; /* slate1 */
+  --color-canvas: #ffffff; /* white */
+}

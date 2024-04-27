@@ -1,0 +1,22 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "arrowParens": "avoid",
+  "printWidth": 160,
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ],
+  "tailwindEntrypoint": "./app/globals.css",
+  "tailwindAttributes": [
+    "enterFrom",
+    "enterTo",
+    "leaveFrom",
+    "leaveTo"
+  ],
+  "tailwindFunctions": [
+    "cn",
+    "cva",
+    "twc"
+  ]
+}
